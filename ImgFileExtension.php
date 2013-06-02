@@ -82,14 +82,6 @@ class ImgFileExtension {
         return true;
     }
     
-    /*
-     * Checks if source file has an extension at all
-     * @param string $filename source image filename
-	 * @return integer|boolean in case of an error returns false, otherwise returns the extension position
-     */
-    protected static function hasExtension($filename) {
-        return strrpos($filename, '.');
-    }
 
     /*
      * Gets the last occured error message
